@@ -1,0 +1,101 @@
+@font-face {
+    font-family: HypersTechno;
+    src: url(/fonts/hypers-techno-14913263/Hypers\ Techno.ttf);
+    }
+
+    body{
+        font-family: HypersTechno !important;
+        font-size: 1.5em;
+    }
+
+    button{
+        font-family: HypersTechno !important;
+        font-size: 1.5em;
+    }
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #6E3DA4;
+}
+
+.navbar-item {
+    color: black;
+}
+
+.navbar-item:hover{
+    background-color: #67f6e2 !important;
+    color: black !important;
+    transition: 0.5s !important;
+}
+
+.navContainer{
+    justify-content: center;
+}
+
+.hero {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url('media/banner_gif.gif');
+    background-size: 100%;
+    width: 108%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-color: black !important;
+    overflow: hidden;
+}
+
+.PP{
+    margin-left :-5%;
+}
+
+.image
+{
+    float: none;
+    margin: 0px auto;
+    width: 300px !important;
+    margin-bottom: 200px;
+}
+
+.hero.is-large .hero-body {
+    padding: 9rem 6rem;
+}
+
+.album1 {
+    background-color: black;
+}
+
+.album1 {
+    color: white;
+}
+
+.title {
+    color: white;
+    padding: 40px 0;
+}
+
+.subtitle {
+    color: white;
+}
+
+.column1{
+    border: 2px solid #c24ff2;
+}
+
+.albumImg{
+    max-width: 150%;
+}
+
+.image img{
+    width: 150%;
+}
+
+.button1{
+    background-color: #c24ff2;
+    border: #6E3DA4 3px solid;
+}
+
+.button1:hover{
+    transition: 0.5s;
+    border: yellow 2px solid;
+    background-color: yellow;
+    color: black;
+}
